@@ -14,11 +14,12 @@ Egalement il est nécessaire d'installer [l'extension Chrome](https://chrome.goo
 
 ### Kotlin
 
-Vous pouvez utiliser n'importe quelle IDE supportant les projets Kotlin/Gradle mais il est fortement recommandé d'utiliser [IntelliJ de JetBrains](https://www.jetbrains.com/fr-fr/idea/) (la version community est amplement suffisante).
+> :bulb: Certains fichiers sont cachés par defaut pour ne pas révéler avant l'heure l'exercice mais le projet reste parfaitement fonctionnel. Vous pouvez le tester sur n'importe quel exercice de Codingame pour valider votre setup.
 
-Pour démarrer il faut importer le projet via `Open/Import` et choisir le dossier `kotlin`
+N'importe quelle IDE supportant les projets Kotlin/Gradle est utilisable mais il est fortement recommandé d'utiliser [IntelliJ de JetBrains](https://www.jetbrains.com/fr-fr/idea/) (la version community est amplement suffisante).
 
-Pour envoyer votre solution il faut lancer la tâche gradle `other/export` dans le menu tiroir sur le bord droit de l'IDE et nommé `Gradle` ou bien directement `./gradlew export` en ligne de commande depuis le dossier du projet. Cela aura pour effet de packager votre solution dans un seul fichier dans `build/solution.kt` qui sera envoyé automatiquement sur codingame si vous branchez l'extension Chrome dessus.
+Pour démarrer il suffit d'importer le projet via `Open/Import` et choisir le dossier `kotlin`.
+Ensuite, pour tester votre solution, lancez la tâche gradle `other/export` dans le menu tiroir sur le bord droit de l'IDE et nommé `Gradle` ou bien directement `./gradlew export` en ligne de commande depuis le dossier du projet. Cela aura pour effet de packager votre solution dans un seul fichier `build/solution.kt` sur lequel vous pouvez brancher l'extension Chrome pour une synchro automatique.
 
 ### Typescript
 
