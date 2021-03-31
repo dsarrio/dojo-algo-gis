@@ -19,3 +19,7 @@ Vous pouvez utiliser n'importe quelle IDE supportant les projets Kotlin/Gradle m
 Pour démarrer il faut importer le projet via `Open/Import` et choisir le dossier `kotlin`
 
 Pour envoyer votre solution il faut lancer la tâche gradle `other/export` dans le menu tiroir sur le bord droit de l'IDE et nommé `Gradle` ou bien directement `./gradlew export` en ligne de commande depuis le dossier du projet. Cela aura pour effet de packager votre solution dans un seul fichier dans `build/solution.kt` qui sera envoyé automatiquement sur codingame si vous branchez l'extension Chrome dessus.
+
+### Typescript
+
+Pas encore disponible mais :crossed_fingers:
