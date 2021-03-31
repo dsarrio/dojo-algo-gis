@@ -4,11 +4,11 @@ Au menu un challenge sur la gestion de ressources. Vous devrez prendre le contr�
 
 Le challenge est proposé par [Codingame](https://www.codingame.com/) et sera révélé en début de session. Egalement, un projet complet prêt à l'emploi est disponible en Kotlin et prend en charge pour vous la totalité du parsing, création des structures de données, tests unitaires ou encore la soumission des actions à chaque tour. Tout ce que vous avez à faire c'est de programmer la logique même de votre bot !
 
-Si vous ne souhaitez pas programmer en Kotlin ? Pas de soucis vous pouvez tout à fait utiliser l'un des nombreux langages proposés par Codingame directement. Un peu plus challengeant sur le timing mais il suffit parfois de seulement quelques lignes pour se hisser en haut du classement !
+Vous ne souhaitez pas programmer en Kotlin ? Pas de soucis vous pouvez tout à fait utiliser l'un des nombreux langages proposés par Codingame directement. Un peu plus challengeant sur le timing mais il suffit parfois de seulement quelques lignes pour se hisser en haut du classement !
 
 ## Mise en place
 
-Vous devez tout d'abord créer un compte sur [Codingame](https://www.codingame.com/). De manière à pouvoir nous retrouver facilement pendant la session et jouer entre nous pensez à indiquer le nom de votre entreprise et/ou école dans votre profile.
+Vous devez tout d'abord créer un compte sur [Codingame](https://www.codingame.com/). De manière à pouvoir vous retrouver et jouer entre vous facilement pendant la session, pensez à indiquer le nom de votre entreprise et/ou école dans votre profil.
 
 Egalement il est nécessaire d'installer [l'extension Chrome](https://chrome.google.com/webstore/detail/codingame-sync-app/nmdombhgnofjnnaenegcdehnbkajfgbh?hl=fr) pour pouvoir envoyer et tester vos solutions directement depuis votre propre IDE. A defaut vous devrez soit travailler directement dans l'IDE en ligne soit copier/coller manuellement votre code dedans.
 
