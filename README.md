@@ -24,3 +24,8 @@ Ensuite, pour tester votre solution, lancez la tâche gradle `other/export` dans
 ### Typescript
 
 Pas encore disponible mais :crossed_fingers:
+
+```
+npm i
+npm run export
+```

@@ -2,7 +2,7 @@
 build
 out
 *.kt
-*.ts2
+*.ts
 typescript/coverage
 node_modules
 .vscode
