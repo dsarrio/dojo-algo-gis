@@ -1,15 +1,28 @@
 package tf.virtual.dojo.algo
 
+import tf.virtual.dojo.algo.core.Actions
+import tf.virtual.dojo.algo.core.Game
+import tf.virtual.dojo.algo.core.closestFactory
+import tf.virtual.dojo.algo.core.enemyOrNeutralFactories
 import java.util.Scanner
 
+val actions = Actions()
+val game = Game(Scanner(System.`in`))
+
 fun main() {
-    val input = Scanner(System.`in`)
-
     while (true) {
-        val arg1 = input.nextInt()
-        val arg2 = input.nextInt()
-        val arg3 = input.nextInt()
+        val current = game.loadTurn()
 
-        println("action")
+        for (source in current.myFactories) {
+            if (source.nbCyborgs > 0) {
+                val candidates = source.links.enemyOrNeutralFactories
+                if (candidates.isNotEmpty()) {
+                    actions.move(source, candidates.closestFactory.destination, source.nbCyborgs)
+                    break;
+                }
+            }
+        }
+
+        actions.commit()
     }
 }
